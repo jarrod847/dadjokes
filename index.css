@@ -1,0 +1,133 @@
+* {
+    font-family: 'Rock Salt', cursive;
+    color: #584b42;
+}
+
+p {
+    font-family: 'Neucha', cursive ;
+}
+
+
+
+.top_head  {
+    background-color: #537D91;
+    padding: 0 2%;
+    
+}
+
+.joke {
+    display: flex;
+
+}
+
+.joke button {
+    border-radius: 8px; 
+    border: 2px solid black;
+    padding: 10px 28px;
+    width: 10rem;
+    font-weight: bold;
+}
+
+
+
+
+
+.container {
+    width: 880px;
+    margin: 0 auto;
+    background-color: #F77754;
+}
+
+.head {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+
+.top    {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #537D91;
+}
+
+.team-top { padding: 2%;
+
+}
+
+.boxes { 
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 2%;
+}
+
+.box_ppl {
+    border: solid .7rem #537D91 ;
+    padding: 2%;
+    border-radius: 5%;
+    margin: 2%;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+img {
+    padding: .5%;
+}
+
+
+
+.bank {
+    padding: 0 2%;
+}
+
+.joke {
+    padding: 0 2%;
+}
+
+.create {
+    padding: 0 2%;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .container {
+        width: 500px;
+    }
+    
+    
+    
+    
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        padding: .5%;
+    }
+
+    .joke img { display: none;
+
+    }
+
+    .joke{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top_head {
+        text-align: center;
+    }
+
+}
+
